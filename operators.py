@@ -27,4 +27,16 @@ print(a)
 # Comparison Operators
 a = 10
 b = 5
-print(a < b)
+print(a>b)
+print(a<b)
+print(a==b)
+print(a!=b)
+
+
+# Logical Operators
+a = 10;
+b = 5;
+
+print(a==b and a>b)
+print(b<a or a==b)
+print(not(True))
